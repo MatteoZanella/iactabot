@@ -1,2 +1,2 @@
-# iactabot
+# IactaBot
 Telegram bot to roll dice

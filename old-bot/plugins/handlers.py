@@ -70,4 +70,4 @@ def rickroll(client: Client, message: Message):
 
 def roll_query(query: str):
     syntax_tree = Lark(dice_roller.grammar).parse(query)
-    return dice_roller.MyTransformer().transform(syntax_tree)
+    return dice_roller.RollTransformer().transform(syntax_tree)
